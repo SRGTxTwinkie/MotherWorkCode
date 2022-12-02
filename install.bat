@@ -1,0 +1,11 @@
+pip install pyautogui
+pip install pyperclip
+pip install pydirectinput
+pip install re
+pip install mouse
+pip install pytesseract
+pip install threading
+pip install pywin32
+pip install keyboard
+pip install pywinauto
+pip install winsound

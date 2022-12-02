@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<x12simple>
+  <loop id='ISA_LOOP'>
+    <seg id='ISA'>
+      <ele id='ISA01'>00</ele>
+      <ele id='ISA02'>          </ele>
+      <ele id='ISA03'>00</ele>
+      <ele id='ISA04'>          </ele>
+      <ele id='ISA05'>ZZ</ele>
+      <ele id='ISA06'>582574363      </ele>
+      <ele id='ISA07'>ZZ</ele>
+      <ele id='ISA08'>382715520      </ele>
+      <ele id='ISA09'>221123</ele>
+      <ele id='ISA10'>1032</ele>
+      <ele id='ISA11'>}</ele>
+      <ele id='ISA12'>00501</ele>
+      <ele id='ISA13'>000005431</ele>
+      <ele id='ISA14'>1</ele>
+      <ele id='ISA15'>P</ele>
+      <ele id='ISA16'>^</ele>
+    </seg>
+    <loop id='GS_LOOP'>
+      <seg id='GS'>
+        <ele id='GS01'>HC</ele>
+        <ele id='GS02'>FAC582574363</ele>
+        <ele id='GS03'>382715520</ele>
+        <ele id='GS04'>20221123</ele>
+        <ele id='GS05'>1032</ele>
+        <ele id='GS06'>5431</ele>
+        <ele id='GS07'>X</ele>
+        <ele id='GS08'>005010X222A1</ele>
+      </seg>
+      <loop id='ST_LOOP'>
+        <seg id='ST'>
+          <ele id='ST01'>837</ele>
+          <ele id='ST02'>3037</ele>
+          <ele id='ST03'>005010X222A1</ele>
+        </seg>
+        <loop id='HEADER'>
+          <seg id='BHT'>
+            <ele id='BHT01'>0019</ele>
+            <ele id='BHT02'>00</ele>
+            <ele id='BHT03'>5565487</ele>
+            <ele id='BHT04'>20221123</ele>
+            <ele id='BHT05'>103240</ele>
+            <ele id='BHT06'>CH</ele>
+          </seg>
+        </loop>
+        <loop id='HEADER'>
+          <seg id='BHT'>
+            <ele id='BHT01'>X7</ele>
+            <ele id='BHT02'>C120139</ele>
+            <ele id='BHT03'>20221123</ele>
+          </seg>
+        </loop>
+        <loop id='HEADER'>
+          <seg id='BHT'>
+            <ele id='BHT01'>F3</ele>
+            <ele id='BHT02'>181310443</ele>
+            <ele id='BHT03'>20221123</ele>
+          </seg>
+          <loop id='1000A'>
+            <seg id='NM1'>
+              <ele id='NM101'>41</ele>
+              <ele id='NM102'>2</ele>
+              <ele id='NM103'>ZIRMED INC</ele>
+              <ele id='NM108'>46</ele>
+              <ele id='NM109'>582574363</ele>
+            </seg>
+            <seg id='PER'>
+              <ele id='PER01'>IC</ele>
+              <ele id='PER02'>EDI Operations</ele>
+              <ele id='PER03'>TE</ele>
+              <ele id='PER04'>8774947633</ele>
+              <ele id='PER05'>EX</ele>
+              <ele id='PER06'>7</ele>
+              <ele id='PER07'>EM</ele>
+              <ele id='PER08'>PRODUCTION@ZIRMED.COM</ele>
+            </seg>
+          </loop>
+          <loop id='1000B'>
+            <seg id='NM1'>
+              <ele id='NM101'>40</ele>
+              <ele id='NM102'>2</ele>
+              <ele id='NM103'>PRIORITY HEALTH</ele>
+              <ele id='NM108'>46</ele>
+              <ele id='NM109'>382715520</ele>
+            </seg>
+          </loop>
+        </loop>
+        <loop id='DETAIL'>
+          <loop id='2000A'>
+            <seg id='HL'>
+              <ele id='HL01'>1</ele>
+              <ele id='HL03'>20</ele>
+              <ele id='HL04'>1</ele>
+            </seg>
+            <seg id='PRV'>
+              <ele id='PRV01'>BI</ele>
+              <ele id='PRV02'>PXC</ele>
+              <ele id='PRV03'>341600000X</ele>
+            </seg>
+            <loop id='2010AA'>
+              <seg id='NM1'>
+                <ele id='NM101'>85</ele>
+                <ele id='NM102'>2</ele>
+                <ele id='NM103'>JACKSON COMMUNITY AMBULANCE</ele>
+                <ele id='NM108'>XX</ele>
+                <ele id='NM109'>1871521542</ele>
+              </seg>
+              <seg id='N3'>
+                <ele id='N301'>429 INGHAM ST</ele>
+              </seg>
+              <seg id='N4'>
+                <ele id='N401'>JACKSON</ele>
+                <ele id='N402'>MI</ele>
+                <ele id='N403'>492011218</ele>
+              </seg>
+              <seg id='REF'>
+                <ele id='REF01'>EI</ele>
+                <ele id='REF02'>383316836</ele>
+              </seg>
+              <seg id='PER'>
+                <ele id='PER01'>IC</ele>
+                <ele id='PER02'>JACKSON COMMUNITY AMBULANCE</ele>
+                <ele id='PER03'>TE</ele>
+                <ele id='PER04'>7349714733</ele>
+                <ele id='PER05'>FX</ele>
+                <ele id='PER06'>7344776776</ele>
+              </seg>
+            </loop>
+            <loop id='2010AB'>
+              <seg id='NM1'>
+                <ele id='NM101'>87</ele>
+                <ele id='NM102'>2</ele>
+              </seg>
+              <seg id='N3'>
+                <ele id='N301'>PO BOX 2351 DEPT 300</ele>
+              </seg>
+              <seg id='N4'>
+                <ele id='N401'>INDIANAPOLIS</ele>
+                <ele id='N402'>IN</ele>
+                <ele id='N403'>462062351</ele>
+              </seg>
+            </loop>
+            <loop id='2000B'>
+              <seg id='HL'>
+                <ele id='HL01'>2</ele>
+                <ele id='HL02'>1</ele>
+                <ele id='HL03'>22</ele>
+                <ele id='HL04'>0</ele>
+              </seg>
+              <seg id='SBR'>
+                <ele id='SBR01'>P</ele>
+                <ele id='SBR02'>18</ele>
+                <ele id='SBR03'>10003</ele>
+                <ele id='SBR09'>CI</ele>
+              </seg>
+              <loop id='2010BA'>
+                <seg id='NM1'>
+                  <ele id='NM101'>IL</ele>
+                  <ele id='NM102'>1</ele>
+                  <ele id='NM103'>HURST</ele>
+                  <ele id='NM104'>RICARDO</ele>
+                  <ele id='NM108'>MI</ele>
+                  <ele id='NM109'>800310231</ele>
+                </seg>
+                <seg id='N3'>
+                  <ele id='N301'>410 RANDOLPH ST</ele>
+                </seg>
+                <seg id='N4'>
+                  <ele id='N401'>JACKSON</ele>
+                  <ele id='N402'>MI</ele>
+                  <ele id='N403'>49203</ele>
+                </seg>
+                <seg id='DMG'>
+                  <ele id='DMG01'>D8</ele>
+                  <ele id='DMG02'>19610301</ele>
+                  <ele id='DMG03'>M</ele>
+                </seg>
+              </loop>
+              <loop id='2010BB'>
+                <seg id='NM1'>
+                  <ele id='NM101'>PR</ele>
+                  <ele id='NM102'>2</ele>
+                  <ele id='NM103'>PRIORITY HEALTH MEDICARE</ele>
+                  <ele id='NM108'>PI</ele>
+                  <ele id='NM109'>38217</ele>
+                </seg>
+              </loop>
+              <loop id='2300'>
+                <seg id='CLM'>
+                  <ele id='CLM01'>C22027601</ele>
+                  <ele id='CLM02'>1428.02</ele>
+                  <comp id='CLM'>
+                    <subele id='CLM05-01'>41</subele>
+                    <subele id='CLM05-02'>B</subele>
+                    <subele id='CLM05-03'>1</subele>
+                  </comp>
+                  <ele id='CLM06'>Y</ele>
+                  <ele id='CLM07'>A</ele>
+                  <ele id='CLM08'>Y</ele>
+                  <ele id='CLM09'>Y</ele>
+                  <ele id='CLM10'>P</ele>
+                </seg>
+              </loop>
+              <loop id='2300'>
+                <seg id='CLM'>
+                  <ele id='CLM01'>800310231-00</ele>
+                  <ele id='CLM02'>10003</ele>
+                  <comp id='CLM'>
+                    <subele id='CLM05-01'>900003145</subele>
+                  </comp>
+                  <ele id='CLM06'>M</ele>
+                  <ele id='CLM10'>20221123</ele>
+                </seg>
+              </loop>
+              <loop id='2300'>
+                <seg id='CLM'>
+                  <ele id='CLM01'>DD</ele>
+                  <ele id='CLM02'>326861727200</ele>
+                </seg>
+                <seg id='DTP'>
+                  <ele id='DTP01'>435</ele>
+                  <ele id='DTP02'>D8</ele>
+                  <ele id='DTP03'>20220818</ele>
+                </seg>
+                <seg id='REF'>
+                  <ele id='REF01'>D9</ele>
+                  <ele id='REF02'>6371910384</ele>
+                </seg>
+                <seg id='NTE'>
+                  <ele id='NTE01'>ADD</ele>
+                  <ele id='NTE02'>EKG SINUS TACH IV MONITORING COVID 19 POSITIVE SEPSIS GLASGOW 14 ALTERED LOC POS</ele>
+                </seg>
+                <seg id='CR1'>
+                  <ele id='CR104'>D</ele>
+                  <ele id='CR105'>DH</ele>
+                  <ele id='CR106'>36.7</ele>
+                  <ele id='CR110'>SCOOT TO COT TRANSFER DUE TO HISTORY OF KIDNEY TRANSPLANT AT RECEIVING FACILITY</ele>
+                </seg>
+                <seg id='CRC'>
+                  <ele id='CRC01'>07</ele>
+                  <ele id='CRC02'>Y</ele>
+                  <ele id='CRC03'>01</ele>
+                  <ele id='CRC04'>04</ele>
+                  <ele id='CRC05'>09</ele>
+                </seg>
+                <seg id='HI'>
+                  <comp id='HI'>
+                    <subele id='HI01-01'>ABK</subele>
+                    <subele id='HI01-02'>U071</subele>
+                  </comp>
+                  <comp id='HI'>
+                    <subele id='HI02-01'>ABF</subele>
+                    <subele id='HI02-02'>A419</subele>
+                  </comp>
+                  <comp id='HI'>
+                    <subele id='HI03-01'>ABF</subele>
+                    <subele id='HI03-02'>R4182</subele>
+                  </comp>
+                </seg>
+                <loop id='2310A'>
+                  <seg id='NM1'>
+                    <ele id='NM101'>DN</ele>
+                    <ele id='NM102'>1</ele>
+                    <ele id='NM103'>LETARTE</ele>
+                    <ele id='NM104'>SHAWN</ele>
+                    <ele id='NM108'>XX</ele>
+                    <ele id='NM109'>1720132004</ele>
+                  </seg>
+                </loop>
+                <loop id='2310E'>
+                  <seg id='NM1'>
+                    <ele id='NM101'>PW</ele>
+                    <ele id='NM102'>2</ele>
+                  </seg>
+                  <seg id='N3'>
+                    <ele id='N301'>HENRY FORD ALLEGIANCE- ER</ele>
+                  </seg>
+                  <seg id='N4'>
+                    <ele id='N401'>JACKSON</ele>
+                    <ele id='N402'>MI</ele>
+                    <ele id='N403'>49201</ele>
+                  </seg>
+                </loop>
+                <loop id='2310F'>
+                  <seg id='NM1'>
+                    <ele id='NM101'>45</ele>
+                    <ele id='NM102'>2</ele>
+                  </seg>
+                  <seg id='N3'>
+                    <ele id='N301'>UNIVERSITY OF MICHIGAN- ER</ele>
+                  </seg>
+                  <seg id='N4'>
+                    <ele id='N401'>ANN ARBOR</ele>
+                    <ele id='N402'>MI</ele>
+                    <ele id='N403'>48109</ele>
+                  </seg>
+                </loop>
+                <loop id='2320'>
+                  <seg id='SBR'>
+                    <ele id='SBR01'>S</ele>
+                    <ele id='SBR02'>18</ele>
+                    <ele id='SBR09'>ZZ</ele>
+                  </seg>
+                  <seg id='OI'>
+                    <ele id='OI03'>Y</ele>
+                    <ele id='OI04'>P</ele>
+                    <ele id='OI06'>Y</ele>
+                  </seg>
+                  <loop id='2330A'>
+                    <seg id='NM1'>
+                      <ele id='NM101'>IL</ele>
+                      <ele id='NM102'>1</ele>
+                      <ele id='NM103'>HURST</ele>
+                      <ele id='NM104'>RICARDO</ele>
+                      <ele id='NM108'>MI</ele>
+                      <ele id='NM109'>0071001984</ele>
+                    </seg>
+                    <seg id='N3'>
+                      <ele id='N301'>410 RANDOLPH ST</ele>
+                    </seg>
+                    <seg id='N4'>
+                      <ele id='N401'>JACKSON</ele>
+                      <ele id='N402'>MI</ele>
+                      <ele id='N403'>49203</ele>
+                    </seg>
+                  </loop>
+                  <loop id='2330B'>
+                    <seg id='NM1'>
+                      <ele id='NM101'>PR</ele>
+                      <ele id='NM102'>2</ele>
+                      <ele id='NM103'>MEDICAID OF MICHIGAN</ele>
+                      <ele id='NM108'>PI</ele>
+                      <ele id='NM109'>SKM10</ele>
+                    </seg>
+                  </loop>
+                </loop>
+                <loop id='2400'>
+                  <seg id='LX'>
+                    <ele id='LX01'>1</ele>
+                  </seg>
+                  <seg id='SV1'>
+                    <comp id='SV1'>
+                      <subele id='SV101-01'>HC</subele>
+                      <subele id='SV101-02'>A0426</subele>
+                      <subele id='SV101-03'>HH</subele>
+                    </comp>
+                    <ele id='SV102'>850</ele>
+                    <ele id='SV103'>UN</ele>
+                    <ele id='SV104'>1</ele>
+                    <comp id='SV1'>
+                      <subele id='SV107-01'>1</subele>
+                      <subele id='SV107-02'>2</subele>
+                      <subele id='SV107-03'>3</subele>
+                    </comp>
+                  </seg>
+                  <seg id='DTP'>
+                    <ele id='DTP01'>472</ele>
+                    <ele id='DTP02'>D8</ele>
+                    <ele id='DTP03'>20220818</ele>
+                  </seg>
+                  <seg id='REF'>
+                    <ele id='REF01'>6R</ele>
+                    <ele id='REF02'>6371910384Z1</ele>
+                  </seg>
+                </loop>
+                <loop id='2400'>
+                  <seg id='LX'>
+                    <ele id='LX01'>2</ele>
+                  </seg>
+                  <seg id='SV1'>
+                    <comp id='SV1'>
+                      <subele id='SV101-01'>HC</subele>
+                      <subele id='SV101-02'>A0425</subele>
+                      <subele id='SV101-03'>HH</subele>
+                    </comp>
+                    <ele id='SV102'>578.02</ele>
+                    <ele id='SV103'>UN</ele>
+                    <ele id='SV104'>36.7</ele>
+                    <comp id='SV1'>
+                      <subele id='SV107-01'>1</subele>
+                      <subele id='SV107-02'>2</subele>
+                      <subele id='SV107-03'>3</subele>
+                    </comp>
+                  </seg>
+                  <seg id='DTP'>
+                    <ele id='DTP01'>472</ele>
+                    <ele id='DTP02'>D8</ele>
+                    <ele id='DTP03'>20220818</ele>
+                  </seg>
+                  <seg id='REF'>
+                    <ele id='REF01'>6R</ele>
+                    <ele id='REF02'>6371910384Z2</ele>
+                  </seg>
+                </loop>
+              </loop>
+            </loop>
+          </loop>
+        </loop>
+      </loop>
+    </loop>
+  </loop>
+</x12simple>

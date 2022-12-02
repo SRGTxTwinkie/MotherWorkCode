@@ -1,0 +1,6 @@
+incrementNext:False
+replaceOriginal:True
+amountOfClaims:17
+totalClaims:80 * 2
+claimsPerHour:80
+click:1

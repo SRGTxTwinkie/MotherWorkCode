@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<x12simple>
+  <loop id='ISA_LOOP'>
+    <seg id='ISA'>
+      <ele id='ISA01'>00</ele>
+      <ele id='ISA02'>          </ele>
+      <ele id='ISA03'>00</ele>
+      <ele id='ISA04'>          </ele>
+      <ele id='ISA05'>ZZ</ele>
+      <ele id='ISA06'>133052274      </ele>
+      <ele id='ISA07'>ZZ</ele>
+      <ele id='ISA08'>382175520      </ele>
+      <ele id='ISA09'>221027</ele>
+      <ele id='ISA10'>2156</ele>
+      <ele id='ISA11'>^</ele>
+      <ele id='ISA12'>00501</ele>
+      <ele id='ISA13'>000167087</ele>
+      <ele id='ISA14'>0</ele>
+      <ele id='ISA15'>P</ele>
+      <ele id='ISA16'>:</ele>
+    </seg>
+    <loop id='GS_LOOP'>
+      <seg id='GS'>
+        <ele id='GS01'>HC</ele>
+        <ele id='GS02'>FAC133052274</ele>
+        <ele id='GS03'>382175520</ele>
+        <ele id='GS04'>20221027</ele>
+        <ele id='GS05'>215654</ele>
+        <ele id='GS06'>167087</ele>
+        <ele id='GS07'>X</ele>
+        <ele id='GS08'>005010X222A1</ele>
+      </seg>
+      <loop id='ST_LOOP'>
+        <seg id='ST'>
+          <ele id='ST01'>837</ele>
+          <ele id='ST02'>000001865</ele>
+          <ele id='ST03'>005010X222A1</ele>
+        </seg>
+        <loop id='HEADER'>
+          <seg id='BHT'>
+            <ele id='BHT01'>0019</ele>
+            <ele id='BHT02'>00</ele>
+            <ele id='BHT03'>001EA1C26</ele>
+            <ele id='BHT04'>20221027</ele>
+            <ele id='BHT05'>215654</ele>
+            <ele id='BHT06'>CH</ele>
+          </seg>
+        </loop>
+        <loop id='HEADER'>
+          <seg id='BHT'>
+            <ele id='BHT01'>X7</ele>
+            <ele id='BHT02'>C115884</ele>
+            <ele id='BHT03'>20221028</ele>
+          </seg>
+        </loop>
+        <loop id='HEADER'>
+          <seg id='BHT'>
+            <ele id='BHT01'>F3</ele>
+            <ele id='BHT02'>177105463</ele>
+            <ele id='BHT03'>20221028</ele>
+          </seg>
+          <loop id='1000A'>
+            <seg id='NM1'>
+              <ele id='NM101'>41</ele>
+              <ele id='NM102'>2</ele>
+              <ele id='NM103'>EMDEON</ele>
+              <ele id='NM108'>46</ele>
+              <ele id='NM109'>133052274</ele>
+            </seg>
+            <seg id='PER'>
+              <ele id='PER01'>IC</ele>
+              <ele id='PER02'>EMDEON CUSTOMER SOLUTIONS</ele>
+              <ele id='PER03'>TE</ele>
+              <ele id='PER04'>8008456592</ele>
+            </seg>
+          </loop>
+          <loop id='1000B'>
+            <seg id='NM1'>
+              <ele id='NM101'>40</ele>
+              <ele id='NM102'>2</ele>
+              <ele id='NM103'>PRIORITY HEALTH</ele>
+              <ele id='NM108'>46</ele>
+              <ele id='NM109'>382175520</ele>
+            </seg>
+          </loop>
+        </loop>
+        <loop id='DETAIL'>
+          <loop id='2000A'>
+            <seg id='HL'>
+              <ele id='HL01'>1</ele>
+              <ele id='HL03'>20</ele>
+              <ele id='HL04'>1</ele>
+            </seg>
+            <loop id='2010AA'>
+              <seg id='NM1'>
+                <ele id='NM101'>85</ele>
+                <ele id='NM102'>2</ele>
+                <ele id='NM103'>ANESTHESIA PARTNERS  MANAGEMENT LLC</ele>
+                <ele id='NM108'>XX</ele>
+                <ele id='NM109'>1336530997</ele>
+              </seg>
+              <seg id='N3'>
+                <ele id='N301'>4600 EAST WASHINGTON ST SUITE 300</ele>
+              </seg>
+              <seg id='N4'>
+                <ele id='N401'>PHOENIX</ele>
+                <ele id='N402'>AZ</ele>
+                <ele id='N403'>850341908</ele>
+              </seg>
+              <seg id='REF'>
+                <ele id='REF01'>EI</ele>
+                <ele id='REF02'>472090481</ele>
+              </seg>
+              <seg id='PER'>
+                <ele id='PER01'>IC</ele>
+                <ele id='PER02'>KIM PETERSON</ele>
+                <ele id='PER03'>TE</ele>
+                <ele id='PER04'>3135207370</ele>
+              </seg>
+            </loop>
+            <loop id='2000B'>
+              <seg id='HL'>
+                <ele id='HL01'>2</ele>
+                <ele id='HL02'>1</ele>
+                <ele id='HL03'>22</ele>
+                <ele id='HL04'>0</ele>
+              </seg>
+              <seg id='SBR'>
+                <ele id='SBR01'>P</ele>
+                <ele id='SBR02'>18</ele>
+                <ele id='SBR03'>10003</ele>
+                <ele id='SBR09'>CI</ele>
+              </seg>
+              <loop id='2010BA'>
+                <seg id='NM1'>
+                  <ele id='NM101'>IL</ele>
+                  <ele id='NM102'>1</ele>
+                  <ele id='NM103'>FISHER-MAXWELL</ele>
+                  <ele id='NM104'>LYNNE</ele>
+                  <ele id='NM108'>MI</ele>
+                  <ele id='NM109'>80018381400</ele>
+                </seg>
+                <seg id='N3'>
+                  <ele id='N301'>32836 BENSON DRIVE</ele>
+                </seg>
+                <seg id='N4'>
+                  <ele id='N401'>WESTLAND</ele>
+                  <ele id='N402'>MI</ele>
+                  <ele id='N403'>48185</ele>
+                </seg>
+                <seg id='DMG'>
+                  <ele id='DMG01'>D8</ele>
+                  <ele id='DMG02'>19531205</ele>
+                  <ele id='DMG03'>F</ele>
+                </seg>
+              </loop>
+              <loop id='2010BB'>
+                <seg id='NM1'>
+                  <ele id='NM101'>PR</ele>
+                  <ele id='NM102'>2</ele>
+                  <ele id='NM103'>PRIORITY HEALTH</ele>
+                  <ele id='NM108'>PI</ele>
+                  <ele id='NM109'>38217</ele>
+                </seg>
+              </loop>
+              <loop id='2300'>
+                <seg id='CLM'>
+                  <ele id='CLM01'>AAS28665</ele>
+                  <ele id='CLM02'>750</ele>
+                  <comp id='CLM'>
+                    <subele id='CLM05-01'>11</subele>
+                    <subele id='CLM05-02'>B</subele>
+                    <subele id='CLM05-03'>1</subele>
+                  </comp>
+                  <ele id='CLM06'>Y</ele>
+                  <ele id='CLM07'>A</ele>
+                  <ele id='CLM08'>Y</ele>
+                  <ele id='CLM09'>Y</ele>
+                  <ele id='CLM10'>P</ele>
+                </seg>
+              </loop>
+              <loop id='2300'>
+                <seg id='CLM'>
+                  <ele id='CLM01'>800183814-00</ele>
+                  <ele id='CLM02'>10003</ele>
+                  <comp id='CLM'>
+                    <subele id='CLM05-01'>7003289341</subele>
+                  </comp>
+                  <ele id='CLM06'>M</ele>
+                  <ele id='CLM10'>20221028</ele>
+                  <ele id='CLM12'>7002526841</ele>
+                </seg>
+              </loop>
+              <loop id='2300'>
+                <seg id='CLM'>
+                  <ele id='CLM01'>DD</ele>
+                  <ele id='CLM02'>325759561700</ele>
+                </seg>
+                <seg id='REF'>
+                  <ele id='REF01'>D9</ele>
+                  <ele id='REF02'>102722722038983</ele>
+                </seg>
+                <seg id='HI'>
+                  <comp id='HI'>
+                    <subele id='HI01-01'>ABK</subele>
+                    <subele id='HI01-02'>M5412</subele>
+                  </comp>
+                </seg>
+                <loop id='2310A'>
+                  <seg id='NM1'>
+                    <ele id='NM101'>DN</ele>
+                    <ele id='NM102'>1</ele>
+                    <ele id='NM103'>SIDDIQI</ele>
+                    <ele id='NM104'>SHAD</ele>
+                    <ele id='NM108'>XX</ele>
+                    <ele id='NM109'>1154733285</ele>
+                  </seg>
+                </loop>
+                <loop id='2310B'>
+                  <seg id='NM1'>
+                    <ele id='NM101'>82</ele>
+                    <ele id='NM102'>1</ele>
+                    <ele id='NM103'>CARLSON</ele>
+                    <ele id='NM104'>SHANNON</ele>
+                    <ele id='NM108'>XX</ele>
+                    <ele id='NM109'>1689653826</ele>
+                  </seg>
+                  <seg id='PRV'>
+                    <ele id='PRV01'>PE</ele>
+                    <ele id='PRV02'>PXC</ele>
+                    <ele id='PRV03'>367500000X</ele>
+                  </seg>
+                </loop>
+                <loop id='2310C'>
+                  <seg id='NM1'>
+                    <ele id='NM101'>77</ele>
+                    <ele id='NM102'>2</ele>
+                    <ele id='NM103'>THE CORE INSTITUTE BRIGHTON</ele>
+                    <ele id='NM108'>XX</ele>
+                    <ele id='NM109'>1639576440</ele>
+                  </seg>
+                  <seg id='N3'>
+                    <ele id='N301'>8273 GRAND RIVER RD STE 210</ele>
+                  </seg>
+                  <seg id='N4'>
+                    <ele id='N401'>BRIGHTON</ele>
+                    <ele id='N402'>MI</ele>
+                    <ele id='N403'>481149346</ele>
+                  </seg>
+                </loop>
+                <loop id='2400'>
+                  <seg id='LX'>
+                    <ele id='LX01'>1</ele>
+                  </seg>
+                  <seg id='SV1'>
+                    <comp id='SV1'>
+                      <subele id='SV101-01'>HC</subele>
+                      <subele id='SV101-02'>01937</subele>
+                      <subele id='SV101-03'>QZ</subele>
+                    </comp>
+                    <ele id='SV102'>750</ele>
+                    <ele id='SV103'>MJ</ele>
+                    <ele id='SV104'>9</ele>
+                    <comp id='SV1'>
+                      <subele id='SV107-01'>1</subele>
+                    </comp>
+                  </seg>
+                  <seg id='DTP'>
+                    <ele id='DTP01'>472</ele>
+                    <ele id='DTP02'>RD8</ele>
+                    <ele id='DTP03'>20220812-20220812</ele>
+                  </seg>
+                  <seg id='REF'>
+                    <ele id='REF01'>6R</ele>
+                    <ele id='REF02'>AAS44569</ele>
+                  </seg>
+                  <seg id='NTE'>
+                    <ele id='NTE01'>ADD</ele>
+                    <ele id='NTE02'>01937 ANES  1315-1324  (9 MIN)</ele>
+                  </seg>
+                </loop>
+              </loop>
+            </loop>
+          </loop>
+        </loop>
+      </loop>
+    </loop>
+  </loop>
+</x12simple>
